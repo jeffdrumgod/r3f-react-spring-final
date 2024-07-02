@@ -55,7 +55,7 @@ export const Experience = () => {
       <directionalLight position={[0, 20, 20]} intensity={1} />
 
       <Carousel />
-      <ContactShadows scale={30} opacity={0.32} />
+      {/* <ContactShadows scale={30} opacity={0.32} /> */}
 
       <Background />
     </>
