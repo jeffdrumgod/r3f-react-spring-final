@@ -32,7 +32,7 @@ const Background = () => {
           far={200}
           origin={[100, 100, -100]}
         />
-        <Noise
+        {/* <Noise
           mapping="local"
           type="white"
           scale={100}
@@ -40,7 +40,7 @@ const Background = () => {
           colorB="black"
           mode="subtract"
           alpha={0.42}
-        />
+        /> */}
       </LayerMaterial>
     </mesh>
   );
